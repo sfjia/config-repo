@@ -6,7 +6,9 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
-
+  redis:
+    host: 192.168.37.130
+    port: 6739
 
 eureka:
   client:
@@ -16,6 +18,4 @@ server:
   port: 8081
 env:
   dev
-  redis:
-    host: 192.168.37.130
-    port: 6739
+
