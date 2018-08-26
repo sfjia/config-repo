@@ -18,4 +18,6 @@ server:
   port: 8081
 env:
   dev
-
+girl:
+  name: lihua
+  age: 18
