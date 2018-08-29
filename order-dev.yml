@@ -17,7 +17,7 @@ eureka:
 server:
   port: 8081
 env:
-  test
+  dev
 girl:
   name: lihua
   age: 20
