@@ -1,4 +1,5 @@
 zuul: ## 自定义路由
+  sensitive-headers:   ## 全局设置排除敏感头
   routes:
     myProduct:
       path: /myProduct/**  # 路径
